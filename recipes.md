@@ -73,4 +73,4 @@ git commit -m "removed FNAME"
 git push
 ````
 
-Now the file has been removed, and this file will not be tracked by Git.
+Now the file has been removed from GitHub, and the file (on your local machine) will not be tracked by Git.
