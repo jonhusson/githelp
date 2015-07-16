@@ -6,7 +6,7 @@ Make a new repository in GitHub. On your local machine, navigate to root of dire
 
 ````
 git init
-git add .
+git add . # Adds all files in the new folder
 git commit -m "initial commit"
 git remote add origin https://github.com/jonhusson/REPO_NAME
 git push -u origin master
