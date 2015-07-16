@@ -48,7 +48,7 @@ git push
 
 Its now on GitHub!
 
-### Adding new files to repository.
+### Ignoring files.
 
 It is helpful to ignore some files that reside on your local copy, but ones you do not 
 want followed and updated by GitHub. On a text editor, create a file called:
