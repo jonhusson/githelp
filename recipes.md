@@ -57,6 +57,12 @@ want followed and updated by GitHub. On a text editor, create a file called:
 .gitignore
 ````
 
-In this file, type out file names you wish to ignore (test.txt in this example)
+In this file, type out file names you wish to ignore (test.txt in this example). Now, type:
 
-Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-bare/blob/gh-pages/LICENSE) license.
+````
+git add .gitignore
+git commit -m ".gitignore added"
+git push
+````
+
+Changes to this file will not be detected by Git. That's it for now!
