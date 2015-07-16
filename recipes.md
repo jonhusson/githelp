@@ -69,7 +69,8 @@ If this file has been pushed to the repository, but you no longer want to track 
 
 ````
 git rm FNAME
+git commit -m "removed FNAME"
+git push
 ````
 
-
-Changes to this file will not be detected by Git. That's it for now!
+Now the file has been removed, and this file will not be tracked by Git.
