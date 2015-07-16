@@ -65,4 +65,11 @@ git commit -m ".gitignore added"
 git push
 ````
 
+If this file has been pushed to the repository, but you no longer want to track changes, type:
+
+````
+git rm FNAME
+````
+
+
 Changes to this file will not be detected by Git. That's it for now!
