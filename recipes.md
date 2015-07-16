@@ -1,8 +1,8 @@
 ## Recipes for Working with Git/GitHub
 
-### Making a new GitHub repository
+### Making a new GitHub repository.
 
-Make a new repository in GitHub. Navigate to root of directory to be stored on GitHub in Terminal. Type:
+Make a new repository in GitHub. On your local machine, navigate to root of directory to be stored on GitHub in Terminal. Type:
 
 ````
 git init
@@ -12,7 +12,7 @@ git remote add origin https://github.com/jonhusson/REPO_NAME
 git push -u origin master
 ````
 
-### Keeping things fresh
+### Keeping things fresh.
 
 If you make a change to a repository, Git will notice. Type:
 
@@ -34,8 +34,29 @@ git commit -m "YOUR MSG HERE"
 git push
 ````
 
-Website was created by and is maintained by **Jon Husson**, post-doctoral researcher in geology at [Univeristy of Wisconsin - Madison](http://geoscience.wisc.edu/geoscience/).
+These three lines of code will be much of what you do!
 
-## Copyright and License
+### Adding new files to repository.
+
+If a file has been added to your local copy of your repository, push it to GitHub! Type:
+
+````
+git add FNAME
+git commit -m "FNAME added"
+git push
+````
+
+Its now on GitHub!
+
+### Adding new files to repository.
+
+It is helpful to ignore some files that reside on your local copy, but ones you do not 
+want followed and updated by GitHub. On a text editor, create a file called:
+
+````
+.gitignore
+````
+
+In this file, type out file names you wish to ignore (test.txt in this example)
 
 Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-bare/blob/gh-pages/LICENSE) license.
