@@ -90,4 +90,4 @@ sudo ln -s /anaconda/lib/libssl.1.0.0.dylib /usr/lib
 sudo ln -s /anaconda/lib/libcrypto.1.0.0.dylib /usr/lib
 ````
 
-This most likely happened with the purchase of a new Apple computer or the installation of new operating system. If so, then you will have enable ```sudo````. Reboot computer in recovery mode. Select Utlities -> Terminal. Type ````csrutil disable```` and restart the computer.
+This most likely happened with the purchase of a new Apple computer or the installation of new operating system. If so, then you will have enable ````sudo````. Reboot computer in recovery mode. Select Utlities -> Terminal. Type ````csrutil disable```` and restart the computer.
