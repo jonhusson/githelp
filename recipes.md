@@ -74,3 +74,20 @@ git push
 ````
 
 Now the file has been removed from GitHub, and the file (on your local machine) will not be tracked by Git.
+
+### Random assortment of thoughts.
+
+If psycopg2 is not working in Python with an Anaconda distribution, with this error message given:
+
+````
+Reason: image not found
+````
+
+then you will need to repair some symlinks. In Terminal, type:
+
+````
+sudo ln -s /anaconda/lib/libssl.1.0.0.dylib /usr/lib
+sudo ln -s /anaconda/lib/libcrypto.1.0.0.dylib /usr/lib
+````
+
+This most likely happened with the purchase of a new Apple computer or the installation of new operating system. If so, then you will have enable ```sudo````. Reboot computer in recovery mode. Select Utlities -> Terminal. Type ````csrutil disable```` and restart the computer.
